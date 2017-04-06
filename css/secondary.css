@@ -1,0 +1,18 @@
+@media screen and (min-width: 775px) {
+
+nav a {
+  color: #a6b3c6;  
+}
+
+/* Color for Nav Link*/
+nav a, nav a:visted {
+ color: #ab3c56; 
+}
+
+/* Selected Nav Link Color*/
+nav a.selected, nav a:hover {
+ color: #FAFAV8; 
+ box-shadow: 0 25px 50px -25px rgba(249, 255, 110, .9) inset;
+}
+   
+}
